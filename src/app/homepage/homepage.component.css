@@ -1,0 +1,17 @@
+.text-content {
+  font-family: sans-serif;
+  background-color: #f2f5f9;
+  padding: 15px;
+}
+
+
+h1 {
+  font-size: 36px;
+  color: #ff69b4;
+}
+
+p {
+  font-size: 18px;
+  color: #999;
+  line-height: 1.6;
+}

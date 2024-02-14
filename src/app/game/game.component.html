@@ -1,0 +1,17 @@
+<div class="container">
+  <div *ngIf="!love">
+  <h1>Will You Be My Valentine?</h1>
+  <div class="image-container">
+    <img ngSrc="assets/heart.png" alt="Heart" height="2073" width="2400">
+  </div>
+  <p>My dearest princess Daria,</p>
+  <p>On this special day of love, I want to express how much you mean to me. You are the sunshine in my darkest days, the melody in my silence, and the love that fills my heart.</p>
+  <p>With every beat of my heart, I choose you. Will you be my Valentine?</p>
+  <div class="buttons">
+    <button id="noButton" (click)="incorrectVariant()">No</button>
+    <button id="yesButton" (click)="correctVariant()">Yes</button>
+  </div>
+  <p id="response"></p>
+  </div>
+  <div  *ngIf="love">I love you!</div>
+</div>

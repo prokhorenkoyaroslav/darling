@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DarlingAlbum</title>
+</head>
+<body>
+
+<header>
+  <h1><a class = "header-h1" routerLink="/">Darling Album</a></h1>
+  <nav>
+    <a routerLink="/sweet">Sweet</a>
+    <a routerLink="/fun">Fun</a>
+    <a routerLink="/game">Special</a>
+    <a (click)="this.auth.logout()" routerLink="/login">Logout</a>
+  </nav>
+</header>
+
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+
+</body>
+</html>
